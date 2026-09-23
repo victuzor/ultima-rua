@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+
+# Publicar apenas as duas prévias atuais
+previa*.png
+!previa-zumbis.png
+!previa-zumbis-menu.png

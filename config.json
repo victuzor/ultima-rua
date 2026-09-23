@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "survival_seconds": 75,
+  "player_speed": 215,
+  "player_health": 100,
+  "enemy_health": 55,
+  "enemy_damage_per_second": 9,
+  "enemy_speed_min": 38,
+  "enemy_speed_max": 68,
+  "activation_distance": 150,
+  "pulse_radius": 140,
+  "pulse_damage": 60,
+  "pulse_cooldown": 0.45,
+  "heal_amount": 40,
+  "health_items_per_area": 3,
+  "ammo_items_per_area": 4,
+  "ammo_per_item": 2,
+  "presets": [
+    {"name": "Patrulha", "enemies": 45, "area_size": 520},
+    {"name": "Cerco", "enemies": 450, "area_size": 760},
+    {"name": "Enxame", "enemies": 3000, "area_size": 1040}
+  ]
+}
